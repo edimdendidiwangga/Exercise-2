@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.button{
+  width: 50px;
+  height: 50px; 
+  font-size: 25px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: repeating-radial-gradient(rgb(5,51,109), rgb(7,33, 51) );;
+}
+.textview{
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+  width: 203px;
+  text-align: right;
+  border: none;
+}
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+  
+}
+.bg{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgb(5,51,109) , rgb(46,137, 204) );
+}
+.expresion{
+  color: rgb(171,178,188);
+  font-size: 13px;
+  width: 100%;
+}
